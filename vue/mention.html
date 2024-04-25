@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentions Légales</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        font-size: 24px;
+        color: #333;
+        cursor: pointer; /* Ajout de la propriété pour indiquer que c'est cliquable */
+      }
+      h2,
+      p {
+        display: none; /* Masquer tous les h2 et p initialement */
+      }
+      .visible {
+        display: block; /* Afficher les éléments avec la classe "visible" */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 onclick="toggleVisibility()">Mentions Légales</h1>
+      <h2>Identité</h2>
+      <p>Nous sommes DELAIGUE Alan.</p>
+      <h2>Coordonnées</h2>
+      <p>
+        Vous pouvez nous trouver à l'adresse suivante : 69 Rue du Turbigo, Paris
+        (75003).
+      </p>
+      <p>
+        Nous sommes également joignables par e-mail à l'adresse :
+        <a href="mailto:alanpro@voyage.com">alanpro@voyage.com</a>
+      </p>
+      <h2>Mentions relatives à l’hébergement du site</h2>
+      <p>Notre site est hébergé par AWS Amazon.</p>
+      <p>
+        La raison sociale de notre hébergeur est "simuler un site de réservation
+        de vols".
+      </p>
+      <p>
+        Vous pouvez visiter notre site à l'adresse suivante :
+        <a href="https://alanflop.github.io/site_accessibilite/"
+          >https://alanflop.github.io/site_accessibilite/</a
+        >
+      </p>
+      <p>
+        Vous pouvez également nous joindre par téléphone au numéro suivant : +33
+        6 15 27 46 89
+      </p>
+    </div>
+
+    <script>
+      function toggleVisibility() {
+        var elements = document.querySelectorAll("h2, p"); // Sélectionner tous les h2 et p
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].classList.toggle("visible"); // Basculer la classe 'visible' pour chaque élément
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+.container {
+  max-width: 800px;
+  margin: 7% auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+h2 {
+  font-size: 20px;
+  color: #333;
+}
+p {
+  font-size: 16px;
+  color: #666;
+}
+.contact-info {
+  margin-top: 20px;
+}
+.contact-info p {
+  margin: 5px 0;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}

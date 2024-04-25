@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.background {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  background-color: #938b8b88;
+  left: 10%;
+}
+
+h1 {
+  z-index: 3;
+  top: 8%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 12%;
+  border: 3px solid black;
+}
+
+.data {
+  position: relative;
+  top: 12%;
+  border: 3px solid black;
+}
+
+.userData {
+  z-index: 2;
+  color: black;
+  border-radius: 10px;
+  left: 20%;
+  padding-top: 5%;
+  margin-top: 5%;
+  position: relative;
+  border: 3px solid black;
+  height: auto;
+  width: 60%;
+}
+
+.username {
+  width: 100%;
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  text-align: center;
+}
+.firstName {
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.lastName {
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.phoneNumber {
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.address {
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.postalCode {
+  display: block;
+  font-size: 3vh;
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
