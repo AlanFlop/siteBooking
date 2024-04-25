@@ -10,7 +10,7 @@ session_start(); // Démarrez la session au début du script
     <meta charset="utf-8" />
 
     <style>
-         footer {
+        footer {
             margin-top: 20px;
             padding-top: 20px;
             background-color: #ddd;
@@ -19,7 +19,7 @@ session_start(); // Démarrez la session au début du script
         iframe {
             width: 100%;
             border: none;
-            overflow: hidden; /* Pour éviter les barres de défilement dans l'iframe */
+            overflow: hidden;
         }
     </style>
   </head>

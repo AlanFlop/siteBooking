@@ -50,7 +50,7 @@ if ($conn->query($sql) === TRUE) {
     $_SESSION['loggedin'] = true; // Définir la variable de session
 
     // Redirection vers voyage.html après la création du compte
-    header("Location: ../voyage.php");
+    header("Location: ../vue/voyage.php");
     exit();
 } else {
     echo "Erreur lors de la création du compte: " . $conn->error;

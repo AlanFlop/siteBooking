@@ -10,10 +10,10 @@ session_start(); // Démarrez la session au début du script
     <meta charset="utf-8" />
 
     <style>/* Masquer l'onglet "Administration" par défaut */
-.hide-admin a[href="controleur/administration.php"] {
-  display: none;
-}
-</style>
+      .hide-admin a[href="../controleur/administration.php"] {
+        display: none;
+      }
+    </style>
   </head>
   <body>
   <nav class="navbar"> 
