@@ -8,20 +8,19 @@ session_start(); // Démarrez la session au début du script
     <link rel="stylesheet" href="../css/voyage.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
     <meta charset="utf-8" />
-
-    <style>
-        footer {
-            margin-top: 20px;
-            padding-top: 20px;
-            background-color: #ddd;
-            text-align: center;
-        }
-        iframe {
-            width: 100%;
-            border: none;
-            overflow: hidden;
-        }
-    </style>
+<style> /* Il faut mettre cette partie de css dans le header car il y a des problèmes de mise en page avec la partie mention.html (qui est le footer) */
+    footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #ddd;
+    text-align: center;
+    }
+    iframe {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    }
+</style>
   </head>
 
   <body>

@@ -34,3 +34,30 @@ a {
   color: #007bff;
   text-decoration: none;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer; /* Ajout de la propriété pour indiquer que c'est cliquable */
+}
+h2,
+p {
+  display: none; /* Masquer tous les h2 et p initialement */
+}
+.visible {
+  display: block; /* Afficher les éléments avec la classe "visible" */
+}
